@@ -1,0 +1,155 @@
+{
+  "meta:license": [
+    "Copyright 2020 Adobe Systems Incorporated. All rights reserved.",
+    "This work is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license",
+    "you may not use this file except in compliance with the License. You may obtain a copy",
+    "of the License at https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "$id": "https://ns.adobe.com/xdm/context/profile-contact-crm",
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Profile work details",
+  "type": "object",
+  "meta:extensible": true,
+  "meta:abstract": true,
+  "meta:intendedToExtend": ["https://ns.adobe.com/xdm/context/profile"],
+  "description": "This mixin is used to capture information regarding person details in context of Business to Business contact.",
+  "definitions": {
+    "profile-contact-crm": {
+      "properties": {
+        "xdm:contactID": {
+          "title": "Contact Record Id",
+          "description": "Contact record id.",
+          "type": "string"
+        },
+        "xdm:masterRecordID": {
+          "title": "Master Record Id",
+          "description": "Master record id.",
+          "type": "string"
+        },
+        "xdm:sourceType": {
+          "title": "Contact Source Type",
+          "description": "Contact source type.",
+          "type": "string"
+        },		
+        "xdm:ownerID": {
+          "title": "Contact Owner id",
+          "description": "Contact owner id",
+          "type": "string"
+        },
+        "xdm:accountID": {
+          "title": "Contact Account id",
+          "description": "Contact account id",
+          "type": "string"
+        },
+        "xdm:userOwnerID": {
+          "title": "User Owner Id",
+          "description": "User owner id",
+          "type": "string"
+        },
+        "xdm:deleted": {
+          "title": "Deleted Indicator",
+          "description": "Deleted indicator.",
+          "type": "boolean"
+        },
+        "xdm:emailBouncedDate": {
+          "title": "Email Bounced Date",
+          "description": "Email bounced date.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "xdm:emailBouncedReason": {
+          "title": "Email Bounced Reason",
+          "description": "Email bounced reason.",
+          "type": "string"
+        },
+        "xdm:emailBounced": {
+          "title": "Email Bounced Indicator",
+          "description": "Email bounced indicator.",
+          "type": "boolean"
+        },
+        "xdm:leadSource": {
+          "title": "Lead Source",
+          "description": "Lead source.",
+          "type": "string"
+        },
+        "xdm:contactDescription": {
+          "title": "Contact Description",
+          "description": "Contact description.",
+          "type": "string"
+        },
+        "xdm:contactStatus": {
+          "title": "Contact Status",
+          "description": "Contact status.",
+          "type": "string"
+        },
+        "xdm:contactStatusDetail": {
+          "title": "Contact Status Detail",
+          "description": "Contact status detail.",
+          "type": "string"
+        },
+        "xdm:contactType": {
+          "title": "Contact Type",
+          "description": "Contact type.",
+          "type": "string"
+        },
+        "xdm:userID": {
+          "title": "User Id",
+          "description": "User id.",
+          "type": "string"
+        },
+        "xdm:originalReferrer": {
+          "title": "Original Referrer",
+          "description": "Original referrer.",
+          "type": "string"
+        },
+        "xdm:originalSearchEngine": {
+          "title": "Original Search Engine",
+          "description": "Original search engine.",
+          "type": "string"
+        },
+        "xdm:originalSearchPhrase": {
+          "title": "Original Search Phrase",
+          "description": "Original search phrase.",
+          "type": "string"
+        },
+        "xdm:originalSourceInfo": {
+          "title": "Original Source Info",
+          "description": "Original source info.",
+          "type": "string"
+        },
+        "xdm:originalSourceType": {
+          "title": "Original Source Type",
+          "description": "Original ource type.",
+          "type": "string"
+        },
+        "xdm:timezone": {
+          "title": "Timezone",
+          "description": "Timezone.",
+          "type": "string"
+        },
+        "xdm:emailOptOutReason": {
+          "title": "Email Opt Out Reason",
+          "description": "Email opt out reason.",
+          "type": "string"
+        },
+        "xdm:phoneOptOutReason": {
+          "title": "Phone Opt Out Reason",
+          "description": "Phone opt out reason.",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "https://ns.adobe.com/xdm/common/extensible#/definitions/@context"
+    },
+    {
+      "$ref": "https://ns.adobe.com/xdm/common/external-source-system-audit-details"
+    },
+    {
+      "$ref": "#/definitions/profile-contact-crm"
+    }
+  ],
+  "meta:status": "experimental"
+}
