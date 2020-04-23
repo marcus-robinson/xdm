@@ -31,12 +31,7 @@
         },
         "xdm:partnerAccountID": {
           "title": "Partner Account Id",
-          "description": "Partner account id.",
-          "type": "string"
-        },
-        "xdm:masterRecordID": {
-          "title": "Master Record Id",
-          "description": "Master record id.",
+          "description": "Partner accounts are accounts that a channel manager uses to manage partner organizations, partner users, and activities when using a partner community or partner portal.",
           "type": "string"
         },
         "xdm:territoryID": {
@@ -46,8 +41,8 @@
         },
         "xdm:accountSite": {
           "title": "Account Site Details",
-          "type": "string",
-          "description": "Information about the account’s location, such as single location, headquarters, or branch. Up to 80 characters are allowed in this field."
+          "description": "Information about the account’s location, such as single location, headquarters, or branch. Up to 80 characters are allowed in this field.",
+          "type": "string"
         },
         "xdm:currencyCode": {
           "title": "Currency Code",
@@ -61,12 +56,12 @@
         },
         "xdm:annualRevenue": {
           "title": "Annual Revenue",
-          "description": "Amount of annual reported revenue.",
+          "description": "Estimated annual revenue of the account.",
           "type": "number"
         },
         "xdm:fax": {
           "title": "Fax Number",
-          "description": "Fax number.",
+          "description": "Fax number for the account.",
           "type": "array",
           "items": {
             "$ref": "https://ns.adobe.com/xdm/context/phonenumber"
@@ -79,12 +74,12 @@
         },
         "xdm:naicsDescription": {
           "title": "NAICS Description",
-          "description": "NAICS description.",
+          "description": "A brief description of an organization’s line of business, based on its NAICS code.",
           "type": "string"
         },
         "xdm:sicDescription": {
           "title": "SIC Description",
-          "description": "SIC description.",
+          "description": "A brief description of an organization’s line of business, based on its SIC code.",
           "type": "string"
         },
         "xdm:accountName": {
@@ -94,7 +89,7 @@
         },
         "xdm:accountDescription": {
           "title": "Account Description",
-          "description": "Account description.",
+          "description": "Text description of the account.",
           "type": "string"
         },
         "xdm:ownership": {
@@ -109,7 +104,7 @@
         },
         "xdm:logoUrl": {
           "title": "Logo URL",
-          "description": "Logo url.",
+          "description": "Path to be combined with the URL of a Salesforce instance (for example, https://yourInstance.salesforce.com/) to generate a URL to request the social network profile image associated with the account. Generated URL returns an HTTP redirect (code 302) to the social network profile image for the account.",
           "type": "string",
           "format": "uri"
         },
@@ -120,12 +115,12 @@
         },
         "xdm:tradeStyle": {
           "title": "Account Trade Style",
-          "description": "Account trade style.",
+          "description": "A name, different from its legal name, that an organization may use for conducting business. Similar to (Doing business as) or (DBA).",
           "type": "string"
         },
         "xdm:tickerSymbol": {
           "title": "Ticker Symbol",
-          "description": "Ticker symbol.",
+          "description": "The stock market symbol for this account. Maximum of 20 characters.",
           "type": "string"
         },
         "xdm:billingAddress": {

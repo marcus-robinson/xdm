@@ -2,7 +2,6 @@
   "xdm:ownerID": "OWNER111",
   "xdm:parentID": "ACC000",
   "xdm:partnerAccountID": "PRTNR1111",
-  "xdm:masterRecordID": "MSTR111",
   "xdm:territoryID": "Terr1",
   "xdm:accountSite": "Additional account site details",
   "xdm:currencyCode": "USD",
@@ -36,9 +35,9 @@
         "xdm:country": "United States",
         "xdm:countryCode": "US",
         "schema:latitude": 37.3382,
-        "schema:longitude": 121.8863,
+        "schema:longitude": -121.8863,
         "xdm:status": "active",
-        "xdm:lastVerifiedDate": "2018-01-03"
+        "xdm:lastVerifiedDate": "2018-12-03"
       },
       "schema:telephone": "1-408-800-0000",
       "xdm:identifier": {
@@ -71,9 +70,9 @@
       "xdm:country": "United States",
       "xdm:countryCode": "US",
       "schema:latitude": 37.3382,
-      "schema:longitude": 121.8863,
+      "schema:longitude": -121.8863,
       "xdm:status": "active",
-      "xdm:lastVerifiedDate": "2018-01-02"
+      "xdm:lastVerifiedDate": "2018-12-02"
     }
   ],
   "xdm:shippingAddress": [
@@ -87,9 +86,9 @@
       "xdm:country": "United States",
       "xdm:countryCode": "US",
       "schema:latitude": 37.3382,
-      "schema:longitude": 121.8863,
+      "schema:longitude": -121.8863,
       "xdm:status": "active",
-      "xdm:lastVerifiedDate": "2018-01-02"
+      "xdm:lastVerifiedDate": "2018-12-02"
     }
   ]
 }

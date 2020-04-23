@@ -17,7 +17,7 @@
   "definitions": {
     "account-marketo": {
       "properties": {
-        "marketo:marketoID": {
+        "marketo:accountID": {
           "title": "Marketo Account Identifier",
           "description": "Marketo account identifier.",
           "type": "string"
