@@ -19,12 +19,12 @@
     "marketo:targeted": true
   },
   "xdm:createdBy": "USER111",
-  "xdm:createdDate": "2018-01-02T15:52:25+00:00",
+  "xdm:createdDate": "2018-12-20T15:52:25+00:00",
   "xdm:lastUpdatedBy": "USER2222",
-  "xdm:lastUpdatedDate": "2018-01-02T15:52:25+00:00",
-  "xdm:lastActivityDate": "2018-01-02T15:52:25+00:00",
-  "xdm:lastReferencedDate": "2018-01-02T15:52:25+00:00",
-  "xdm:lastViewedDate": "2018-01-02T15:52:25+00:00",
+  "xdm:lastUpdatedDate": "2018-12-20T15:52:25+00:00",
+  "xdm:lastActivityDate": "2018-12-20T15:52:25+00:00",
+  "xdm:lastReferencedDate": "2018-12-20T15:52:25+00:00",
+  "xdm:lastViewedDate": "2018-12-20T15:52:25+00:00",
   "xdm:ownerID": "OWNER111",
   "xdm:parentID": "ACC000",
   "xdm:partnerAccountID": "PRTNR1111",
@@ -63,7 +63,7 @@
         "schema:latitude": 37.3382,
         "schema:longitude": -121.8863,
         "xdm:status": "active",
-        "xdm:lastVerifiedDate": "2018-12-03"
+        "xdm:lastVerifiedDate": "2018-12-23"
       },
       "schema:telephone": "1-408-800-0000",
       "xdm:identifier": {
@@ -98,7 +98,7 @@
       "schema:latitude": 37.3382,
       "schema:longitude": -121.8863,
       "xdm:status": "active",
-      "xdm:lastVerifiedDate": "2018-12-02"
+      "xdm:lastVerifiedDate": "2018-12-20"
     }
   ],
   "xdm:shippingAddress": [
@@ -114,7 +114,7 @@
       "schema:latitude": 37.3382,
       "schema:longitude": -121.8863,
       "xdm:status": "active",
-      "xdm:lastVerifiedDate": "2018-12-02"
+      "xdm:lastVerifiedDate": "2018-12-20"
     }
   ]
 }
