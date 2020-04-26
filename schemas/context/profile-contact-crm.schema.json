@@ -48,7 +48,7 @@
         },
         "xdm:emailBouncedDate": {
           "title": "Email Bounced Date",
-          "description": "Email bounced date.",
+          "description": "If bounce management is activated and an email is sent to a contact, provides the date when the email was bounced.",
           "type": "string",
           "format": "date-time"
         },
@@ -64,7 +64,7 @@
         },
         "xdm:leadSource": {
           "title": "Lead Source",
-          "description": "The lead's source.",
+          "description": "Field recording what source the lead originated from.",
           "type": "string"
         },
         "xdm:contactDescription": {
@@ -74,17 +74,17 @@
         },
         "xdm:contactStatus": {
           "title": "Contact Status",
-          "description": "Contact status.",
+          "description": "Current status of the contact.",
           "type": "string"
         },
         "xdm:contactStatusDetail": {
           "title": "Contact Status Detail",
-          "description": "Contact status detail.",
+          "description": "Additional Details of the current status of the contact.",
           "type": "string"
         },
         "xdm:contactType": {
           "title": "Contact Type",
-          "description": "Contact type.",
+          "description": "Type of the contact.",
           "type": "string"
         },
         "xdm:userID": {
@@ -94,17 +94,17 @@
         },
         "xdm:originalReferrer": {
           "title": "Original Referrer",
-          "description": "Original referrer.",
+          "description": "The original referrer is typically the page that leads to a form fill out.",
           "type": "string"
         },
         "xdm:originalSearchEngine": {
           "title": "Original Search Engine",
-          "description": "Original search engine.",
+          "description": "Search engine that the original referrer used.",
           "type": "string"
         },
         "xdm:originalSearchPhrase": {
           "title": "Original Search Phrase",
-          "description": "Original search phrase.",
+          "description": "Search phrase used by the original referrer.",
           "type": "string"
         },
         "xdm:originalSourceInfo": {
@@ -119,17 +119,17 @@
         },
         "xdm:timezone": {
           "title": "Timezone",
-          "description": "Timezone.",
+          "description": "Timezone of the contact's location.",
           "type": "string"
         },
         "xdm:emailOptOutReason": {
           "title": "Email Opt Out Reason",
-          "description": "Email opt out reason.",
+          "description": "Reason for the contact opting out of recieving any emails if available.",
           "type": "string"
         },
         "xdm:phoneOptOutReason": {
           "title": "Phone Opt Out Reason",
-          "description": "Phone opt out reason.",
+          "description": "Reason for the contact opting out of recieving any phone calls if available.",
           "type": "string"
         }
       }
