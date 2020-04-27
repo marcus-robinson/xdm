@@ -28,28 +28,28 @@
         },		
         "xdm:converted": {
           "title": "Converted Indicator",
-          "description": "Converted indicator.",
+          "description": "Indicates whether the Lead was successfully converted or not.",
           "type": "boolean"
         },
         "xdm:convertedAccountID": {
           "title": "Converted Account ID",
-          "description": "Converted account id.",
+          "description": "Account Id if the lead was successfully converted.",
           "type": "string"
         },
         "xdm:convertedContactID": {
           "title": "Converted Contact ID",
-          "description": "Converted contact id.",
+          "description": "Contact Id if the lead was successfully converted.",
           "type": "string"
         },
         "xdm:convertedDate": {
           "title": "Converted Date",
-          "description": "The date when the lead was converted to an account.",
+          "description": "Date of conversion if the lead was successfully converted.",
           "type": "string",
           "format": "date-time"
         },
         "xdm:convertedOpportunityID": {
           "title": "Converted Opportunity ID",
-          "description": "Converted opportunity id.",
+          "description": "Opportunity Id if the lead was successfully converted.",
           "type": "string"
         },
         "xdm:deleted": {
@@ -64,18 +64,18 @@
         },
         "xdm:emailBouncedDate": {
           "title": "Email Bounced Date",
-          "description": "Email bounced date.",
+          "description": "If bounce management is activated and an email is sent to a contact, provides the date when the email was bounced.",
           "type": "string",
           "format": "date-time"
         },
         "xdm:emailBouncedReason": {
           "title": "Email Bounced Reason",
-          "description": "Email bounced reason.",
+          "description": "If bounce management is activated and an email is sent to a contact, provides the reason for bounced email.",
           "type": "string"
         },
         "xdm:jigsawContactID": {
           "title": "Jigsaw Contact Id",
-          "description": "Jigsaw contact id.",
+          "description": "Lead’s Data.com ID if available.",
           "type": "string"
         },
         "xdm:lastTransferDate": {
@@ -84,11 +84,6 @@
           "type": "string",
           "format": "date-time"
         },
-        "xdm:masterRecordID": {
-          "title": "Master Record Id",
-          "description": "Master record id.",
-          "type": "string"
-        },
         "xdm:ownerID": {
           "title": "Owner ID",
           "description": "Owner id.",
@@ -96,12 +91,12 @@
         },
         "xdm:leadSource": {
           "title": "Lead Source",
-          "description": "Lead source.",
+          "description": "Field recording what source the lead originated from.",
           "type": "string"
         },
         "xdm:leadStatus": {
           "title": "Lead Status",
-          "description": "Lead status.",
+          "description": "Field recording the current marketing/sales status of the lead.",
           "type": "string"
         },
         "xdm:leadPhotoUrl": {
@@ -146,8 +141,8 @@
           "format": "uri"
         },
         "xdm:annualRevenue": {
-          "title": "Annual Revenue of the Lead Organization",
-          "description": "Amount of annual reported revenue.",
+          "title": "Annual Revenue",
+          "description": "Estimated Amount of annual revenue of the lead organization.",
           "type": "number"
         },
         "xdm:leadOrganization": {
@@ -169,5 +164,6 @@
       "$ref": "https://ns.adobe.com/xdm/common/external-source-system-audit-details"
     }
   ],
+  "required": ["xdm:leadID"],
   "meta:status": "experimental"
 }
